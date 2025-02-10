@@ -105,3 +105,14 @@ tr,td, table{
 table, #Fat {
     border-bottom: 0px solid white;
 }
+
+@media(max-width: 480px) {
+    body{
+        padding: 0px;
+        background-color: white;
+    }
+    main{
+        margin-block: 0px;
+        border-radius: 0px;
+    }
+}
